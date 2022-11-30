@@ -12,7 +12,7 @@ console.log("welcome to imanda claas. You will learn binary search here")
 
         // console.log(myArray[mid])
         
-        if(data == myArray[mid]){
+        if(data === myArray[mid]){
             // console.log(`${data} has been found`)
             return data
         }
@@ -23,13 +23,13 @@ console.log("welcome to imanda claas. You will learn binary search here")
         }
         
     }
-    return false
+
     
 }
 
 const myArray = [10,20,30,40,50,60,70,80];
-data = 50
+data = 40
 
-if (binarySearch(myArray ,data, 0, myArray.length - 1)){
+if (binarySearch(myArray ,data)){
     console.log("Data has been found..")
 }else console.log("Not found")
